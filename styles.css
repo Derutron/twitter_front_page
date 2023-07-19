@@ -1,0 +1,101 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(-20deg, #ffffff 50%, rgb(11, 166, 212) 50%);
+    width: 900px;
+    height: 600px;
+  }
+
+  /* Left half of the page */
+  .one{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    width: 400px;
+    height: 450px;
+    font-family: 'Calibri';
+    padding-top: 50px;
+    border-radius: 15px 0 0 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 9);
+  }
+
+  /* Twitter logo */
+  img.logo{
+    width: 90px;
+    height: 90px;
+  }
+
+  /* for the form and placeholder */
+#emailpass {
+    font-size: 15px;
+  }
+  
+  #emailpass::placeholder {
+    font-size: 10px;
+  }
+  
+  input[type="text"]#emailpass {
+    border: none;
+    border-bottom: 1px solid #a8afbe;
+    outline: none; 
+    width: 250px;
+  }
+
+  /* forget password */
+  .forget {
+    text-align: left;
+    width: 250px;
+    color: rgb(11, 166, 212);
+    
+}
+
+.login {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(11, 166, 212);
+    color: white;
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+/* login icon */
+.login::after {
+    content: "\2192"; /* Unicode arrow character */
+    position: absolute;
+    right: 10px;
+}
+
+/* for signup */
+.sign{
+    color: rgb(11, 166, 212);
+}
+
+  /* The second half of the page */
+.two{
+    margin-left: 0px;
+    background-color: rgb(11, 166, 212);
+    width: 400px;
+    height: 480px;
+    font-family: 'Calibri';
+    padding-top: 20px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: -10px 0 10px -10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3);
+    
+
+
+}
+
+  .two img.pic {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+  
+  
